@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    color: #3693b8;
+    text-decoration: none;
+}
+
+a.home {
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e08918;
+}
+
+h1 {
+    background-color: #3693b8;
+    border-radius: 10px;
+    color: #fff;
+    padding: 1rem;
+}
+
+h2 {
+    background-color: #e08918;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+h3 {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.navigation li {
+    font-weight: bold;
+    padding: 0.5rem 0;
+}
