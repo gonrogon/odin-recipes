@@ -40,7 +40,39 @@ img {
     border-radius: 10px;
 }
 
-.navigation li {
+.navigation a {
+    display: inline-block;
+    width: 200px;
+    height: 280px;
+    margin-right: 1rem;
+    border-radius: 10px;
+    vertical-align: top;
+    background-color: #e08918;
+    color: #fff;
+    font-size: 1.2rem;
     font-weight: bold;
-    padding: 0.5rem 0;
+    text-align: center;
+}
+
+.navigation a:hover {
+    background-color: #888;
+}
+
+.navigation a:hover img {
+    opacity: 0.5;
+}
+
+.navigation img {
+    display: block;
+    object-fit:cover;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 1rem;
+}
+
+.navigation span {
+    padding: 0 0.5rem;
 }
